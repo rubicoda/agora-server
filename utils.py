@@ -70,7 +70,7 @@ def start_cloud_recording(channel):
             "storageConfig": {
                 "secretKey": SECRET_KEY,
                 "vendor": 1,  # 1 is for AWS
-                "region": 1,
+                "region": 21,
                 "bucket": BUCKET_NAME,
                 "accessKey": ACCESS_KEY,
                 "fileNamePrefix": [
